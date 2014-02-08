@@ -2,7 +2,7 @@ package com.ssr;
 
 import javax.jws.WebService;
 
-@WebService(endpointInterface = "com.test.WebServiceInterface")
+@WebService(endpointInterface = "com.ssr.FrontService")
 public class FrontServiceImpl implements FrontService {
 
 	@Override
